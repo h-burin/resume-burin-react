@@ -1,0 +1,23 @@
+.carousel-custom .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.BG-transparent-carousel {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.carousel-custom .carousel-caption {
+  z-index: 1000;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: unset;
+}
+
+.carousel-custom .carousel-indicators {
+  z-index: 1001;
+}
